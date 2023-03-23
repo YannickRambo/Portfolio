@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: linear-gradient(to right, red, darkred);
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-top: 25px;
+
+}
+
+#rodape_menu {
+    display: flex;
+    align-items: center;
+}
+
+#secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    gap: 25px;
+    padding: 25px;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #383838, black);
+    height: 100px;
+    padding: 75px;
+
+}
+
+#descricao {
+    font-size: 15px;
+    text-align: center;
+}
+
+#contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #383838, black);
+    height: 100px;
+    padding: 25px;
+}
+
+#titulo_principal {
+    margin-bottom: 30px;
+}
+
+#contatos_titulo {
+    margin-bottom: 25px;
+}
+
+#contatos_conteudo {
+    display: flex;
+    gap: 50px;
+}
+
+hr {
+    margin-top: 30px;
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: red;
+    transition: 1s;
+}
+
+#rodape {
+    padding: 25px;
+    background-color: lightgray;
+    background-image: linear-gradient(to right, #383838, black);
+    padding-top: 75px;
+}
+
+#rodape_titulo {
+    font-size: 20px;
+}
+
+.rodape_informacoes {
+    font-size: 15px;
+
+}
+
+#lista {
+    padding-left: 20px;
+}

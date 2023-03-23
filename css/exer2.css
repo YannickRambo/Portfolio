@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, magenta, purple);
+
+
+}
+.titulos{
+    font-size: 25px;
+}
+
+#container_principal{
+    display: flex;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.3);
+
+}
+#container_esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+#container_direita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.inputs {
+    outline: none;
+    margin: 10px;
+    width: 175px;
+    padding: 10px;
+    transition: 250ms;
+    border-radius: 10px;
+    border: none;
+    color: gray;
+
+}
+.inputs:hover{
+    cursor: pointer;
+    transform: translateY(-3px);
+}
+
+#btn_gerar_folha {
+    margin: 10px;
+    width: 100px;
+    padding: 10px;
+    transition: 250ms;
+    border-radius: 20px;
+    background-color: magenta;
+    border: none;
+    color: white;
+    box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+#btn_gerar_folha:hover{
+    width: 125px;
+    cursor: pointer;
+}

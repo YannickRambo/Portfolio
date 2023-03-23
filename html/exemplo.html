@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleCalc.css">
+    <title>Exemplo</title>
+</head>
+
+<body>
+    <form id="formulario" name="f1" action="">
+        <h1 id = "titulo">Calculadora científica</h1>
+            <input class = "input_valores" type="text" name="val1">
+            <input id = "btn_limpar" type="button" value="Limpar" onclick="this.form.val1.value = ''; this.form.val2.value = ''">
+        <div id="operacoes">
+            <div id = "operacoes_trigonometria">
+                <input class = "inputs_operacoes" type="button" value="cos(x)" onclick="cos()">
+
+                <input class = "inputs_operacoes" type="button" value="sin(x)" onclick="sin()">
+
+                <input class = "inputs_operacoes" type="button" value="tan(x)" onclick="tan()">
+            </div>
+            <div id = "operacoes_basicas">
+                <input class = "inputs_operacoes" type="button" value="sqrt(x)" onclick="sqrt()">
+
+                <input class = "inputs_operacoes" type="button" value="log(x)" onclick="log()">
+
+                <input class = "inputs_operacoes" type="button" value="exp(x)" onclick="exp()">
+            </div>
+        </div>
+
+        <input class = "input_valores" type="text" name="val2">
+    </form>
+    <script src="/js/calc.js"></script>
+</body>
+
+</html>

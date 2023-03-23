@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/exer1.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div id="formulario">
+        <h1 id="titulo-formulario">Sistema Fit</h1>
+        <input class="inputs" type="text" id = "nome" placeholder="Nome:">
+        <input class="inputs" type="number" name="" id="peso" placeholder="Peso:">
+        <input class="inputs" type="number" name="" id="altura" placeholder="Altura:">
+        <button onclick="calcularIMC();" id="btn_salvar">Calcular</button>
+    </div>
+    <div id="container-modal">
+        <div id="modal">
+            <div id="container-titulo">
+                <h1 id="titulo-modal">Resultado:</h1>
+            </div>
+            <p id="imc"></p>
+            <p id="descricao"></p>
+            <div id="container-img">
+                <img src="/img/abaixo-do-peso.jpg" alt="" id="img">
+            </div>
+            <button onclick="fecharModal();" id="btn_fechar">X</button>
+        </div>
+    </div>
+    <script src="/js/exer1.js"></script>
+</body>
+
+</html>

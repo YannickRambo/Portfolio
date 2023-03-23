@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/listaCompras.css">
+    <title>Lista de Compras</title>
+</head>
+
+<body>
+    <main>
+        <form>
+            <h1 id = "titulo-formulario">Lista de Compras</h1>
+            <input class = "inputs" type="hidden" name="id">
+            <input class = "inputs" name="nome" type="text" maxlength="50" placeholder="Nome:" required>
+            <input class = "inputs" name="codigo" type="text" maxlength="20" placeholder="Código:" required>
+            <input class = "buttons" type="submit" value="Salvar">
+        </form>
+        <div class="list">
+            <input class = "inputs" id="pesquisa" type="text" placeholder="Pesquisa:" onkeyup="listar(this.value)">
+            <ul>
+
+            </ul>
+        </div>
+    </main>
+
+    <script src="/js/listaCompras.js"></script>
+</body>
+
+</html>

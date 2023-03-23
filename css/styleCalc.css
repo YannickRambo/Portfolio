@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+#titulo{
+    color: white;
+}
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C1C;
+    padding: 50px;
+    border-radius: 25px;
+}
+#btn_limpar{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #DC143C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    transition: 250ms;
+}
+#btn_limpar:hover{
+background-color: red;
+}
+#operacoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    align-items: center;
+}
+
+#operacoes_trigonometria {
+    display: flex;
+}
+#operacoes_basicas{
+    display: flex;
+}
+.input_valores{
+    outline: none;
+    padding: 10px;
+    width: 100%;
+    margin: 25px;
+    border-radius: 5px;
+    border: none;
+}
+.inputs_operacoes{
+    padding: 10px;
+    width: 75px;
+    height: 75px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: 	#FFA500;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: 250ms;
+}
+.inputs_operacoes:hover{
+    background-color: #FF8C00;
+}

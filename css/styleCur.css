@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-image: linear-gradient(to right, #383838, black);
+}
+#titulo{
+  margin: 25px;
+}
+#principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#descricao{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#conteudo{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+a{
+    text-decoration: none;
+}
+
+#rodape{
+    padding: 25px;
+    background-color: lightgray;
+    background-image: linear-gradient(to right, #383838, black);
+    padding-top: 75px;
+}
+
+#rodape_titulo{
+    font-size: 20px;
+}
+.rodape_informacoes{
+    font-size: 15px;
+
+}
+#lista{
+    padding-left: 20px;
+}

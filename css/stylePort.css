@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, red, darkred);
+    height: 30vh;
+}
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #383838, black);
+    height: 70vh;
+}
+
+#titulo_projetos {
+    display: flex;
+}
+
+.exercicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #363636;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    width: 15vw;
+}
+
+.links {
+    text-decoration: none;
+}
+
+#rodape {
+    padding-top: 75px;
+    padding: 25px;
+    background-image: linear-gradient(to right, #383838, black);
+}
